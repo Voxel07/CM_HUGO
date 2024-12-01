@@ -1,0 +1,39 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  DOCKER_IMAGE: $CI_REGISTRY_IMAGE
+  DOCKER_TAG: $CI_COMMIT_REF_SLUG
+
+# Build Hugo site and create Docker image
+build-and-deploy:
+  image: alpine:latest
+  stage: build
+  services:
+    - docker:dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+  before_script:
+    - apk add --no-cache docker docker-compose hugo git
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    # Build Hugo site
+    - hugo --minify
+
+    # Create Dockerfile
+    - |
+      cat > Dockerfile << EOF
+      FROM nginx:alpine
+      COPY public /usr/share/nginx/html
+      EXPOSE 80
+      CMD ["nginx", "-g", "daemon off;"]
+      EOF
+
+    # Build Docker image
+    - docker build -t $DOCKER_IMAGE:$DOCKER_TAG .
+    
+    # Push Docker image to GitLab registry
+    - docker push $DOCKER_IMAGE:$DOCKER_TAG
+  only:
+    - main  # Or the branch you want to deploy from
