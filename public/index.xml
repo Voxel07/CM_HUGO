@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Crazy Monkey</title>
+    <title>Matthias Schneider</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Crazy Monkey</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
-    <lastBuildDate>Sun, 18 Feb 2024 14:12:44 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content on Matthias Schneider</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ASH events</title>
-      <link>http://localhost:1313/ash/</link>
-      <pubDate>Sun, 18 Feb 2024 14:12:44 +0100</pubDate>
-      <guid>http://localhost:1313/ash/</guid><media:content url="http://localhost:1313/ash/Dark%20Emergency/2022-05-13%2022.01.15%20reifenversand.com%2061d15ccff486_hu2357582048230366554.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/ash/Dark%20Emergency/2022-05-13%2022.01.15%20reifenversand.com%2061d15ccff486_hu2357582048230366554.png&quot; /&gt;
-          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
-        </description></item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/posts/test1/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test1/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
     <item>
-      <title>DE</title>
-      <link>http://localhost:1313/ash/dark-emergency/</link>
-      <pubDate>Sun, 18 Feb 2024 14:12:44 +0100</pubDate>
-      <guid>http://localhost:1313/ash/dark-emergency/</guid><media:content url="http://localhost:1313/ash/Dark%20Emergency/2022-05-13%2022.01.15%20reifenversand.com%2061d15ccff486_hu2357582048230366554.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/ash/Dark%20Emergency/2022-05-13%2022.01.15%20reifenversand.com%2061d15ccff486_hu2357582048230366554.png&quot; /&gt;
-          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
-        </description></item>
+      <title>Suporte a Emojis</title>
+      <link>http://localhost:1313/posts/test2/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test2/</guid>
+      <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
+    </item>
     <item>
-      <title>Monkey Island</title>
-      <link>http://localhost:1313/monkeyisland/</link>
-      <pubDate>Sun, 18 Feb 2024 14:12:44 +0100</pubDate>
-      <guid>http://localhost:1313/monkeyisland/</guid><media:content url="http://localhost:1313/monkeyisland/Frame-4_hu9119486120447999873.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;http://localhost:1313/monkeyisland/Frame-4_hu9119486120447999873.png&quot; /&gt;
-          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
-        </description></item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;&#xA;&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Voxel07/CM_Bierdeckel&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Voxel07/CM_Bierdeckel&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Voxel07/CM_HUGO&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Voxel07/CM_HUGO&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Voxel07/ASVZ_Crawler&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Voxel07/ASVZ_Crawler&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Follow me, @johndoe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;Nothing to see here&amp;hellip; Move along!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
