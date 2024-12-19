@@ -6,20 +6,20 @@
     <description>Recent content in Series on Matthias Schneider</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Demonstração Do Tema</title>
-      <link>http://localhost:1313/series/demonstra%C3%A7%C3%A3o-do-tema/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/demonstra%C3%A7%C3%A3o-do-tema/</guid>
+      <title>CrazyMonkeys</title>
+      <link>http://localhost:1313/series/crazymonkeys/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/series/crazymonkeys/</guid>
       <description></description>
     </item>
     <item>
-      <title>Theme Demo</title>
-      <link>http://localhost:1313/series/theme-demo/</link>
-      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/theme-demo/</guid>
+      <title>Demonstração Do Tema</title>
+      <link>http://localhost:1313/series/demonstra%C3%A7%C3%A3o-do-tema/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/series/demonstra%C3%A7%C3%A3o-do-tema/</guid>
       <description></description>
     </item>
   </channel>

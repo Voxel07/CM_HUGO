@@ -3,7 +3,7 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <title>
-  Emoji Support · Matthias Schneider
+  Bierdeckel · Matthias Schneider
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,27 +13,27 @@
 
 
 <meta name="author" content="Matthias Schneider">
-<meta name="description" content="Guide to emoji usage in Hugo">
+<meta name="description" content="Intoduction to the order system used in the field">
 <meta name="keywords" content="blog,developer,personal">
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Emoji Support">
-  <meta name="twitter:description" content="Guide to emoji usage in Hugo">
+  <meta name="twitter:title" content="Bierdeckel">
+  <meta name="twitter:description" content="Intoduction to the order system used in the field">
 
 <meta property="og:url" content="http://localhost:1313/posts/test1/">
   <meta property="og:site_name" content="Matthias Schneider">
-  <meta property="og:title" content="Emoji Support">
-  <meta property="og:description" content="Guide to emoji usage in Hugo">
+  <meta property="og:title" content="Bierdeckel">
+  <meta property="og:description" content="Intoduction to the order system used in the field">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-12-15T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-12-15T00:00:00+00:00">
-    <meta property="article:tag" content="Hugo">
-    <meta property="article:tag" content="Markdown">
-    <meta property="article:tag" content="Emoji">
+    <meta property="article:tag" content="JS">
+    <meta property="article:tag" content="JAVA">
+    <meta property="article:tag" content="REACT">
 
 
 
@@ -168,7 +168,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="http://localhost:1313/posts/test1/">
-              Emoji Support
+              Bierdeckel
             </a>
           </h1>
         </div>
@@ -191,22 +191,22 @@
 
           <div class="categories">
   <i class="fa-solid fa-folder" aria-hidden="true"></i>
-    <a href="/categories/syntax/">Syntax</a>
+    <a href="/categories/software/">Software</a>
       <span class="separator">•</span>
-    <a href="/categories/theme-demo/">Theme Demo</a></div>
+    <a href="/categories/cm/">CM</a></div>
 
           <div class="tags">
   <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/tags/hugo/">Hugo</a>
+      <a href="/tags/js/">JS</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/markdown/">Markdown</a>
+      <a href="/tags/java/">JAVA</a>
     </span>
       <span class="separator">•</span>
     <span class="tag">
-      <a href="/tags/emoji/">Emoji</a>
+      <a href="/tags/react/">REACT</a>
     </span></div>
 
         </div>
@@ -214,16 +214,66 @@
 
       <div class="post-content">
         
-        <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
-<p>The <a href="https://gohugo.io/functions/emojify/"  class="external-link" target="_blank" rel="noopener"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes"  class="external-link" target="_blank" rel="noopener">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/"  class="external-link" target="_blank" rel="noopener">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<!-- raw HTML omitted -->
-<p>The <a href="http://www.emoji-cheat-sheet.com/"  class="external-link" target="_blank" rel="noopener">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">.emoji {
-</span></span><span class="line"><span class="cl">font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-</span></span><span class="line"><span class="cl">}</span></span></code></pre></div>
+        <p>This section describes the development and the use of the Web Application Bierdeckel</p>
+<p>The page can be accessed at the moment at <a href="https://bierdeckel.matzeschneider.de"  class="external-link" target="_blank" rel="noopener">https://bierdeckel.matzeschneider.de</a> to use it you need to create an account.</p>
+<h1 id="techstack">
+  Techstack
+  <a class="heading-link" href="#techstack">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="backend">
+  Backend
+  <a class="heading-link" href="#backend">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="core">
+  Core
+  <a class="heading-link" href="#core">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>The core of the application is written in Java using the Quarkus framework. It handels data processing, caching and orm to a</li>
+</ul>
+<h3 id="database">
+  Database
+  <a class="heading-link" href="#database">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>All data is stored in a mariadb</li>
+</ul>
+<h3 id="auth">
+  Auth
+  <a class="heading-link" href="#auth">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Athentication is done using Keycloak. It works as an auth provider and handles the user data in a save way.</li>
+</ul>
+<h2 id="frontend">
+  Frontend
+  <a class="heading-link" href="#frontend">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h2 id="additional">
+  Additional
+  <a class="heading-link" href="#additional">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
       </div>
 
 
