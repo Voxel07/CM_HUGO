@@ -6,18 +6,36 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Matthias Schneider"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## About Me
+I'm Matthias Schneider, a software developer with a passion for embedded systems, automation, and web development. 
 
-Hugo makes use of a variety of open source projects including:
 
-* https://github.com/Voxel07/CM_Bierdeckel
-* https://github.com/Voxel07/CM_HUGO
-* https://github.com/Voxel07/ASVZ_Crawler
+## Skills & Technologies
+- Embedded Systems Development (C/C++)
+- PCB Design & Hardware Development
+- Web Development (HTML, CSS, JavaScript)
+- Robotics & Automation
+- 3D Design & Printing
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+## Projects
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+### Embedded Systems
+* [OpenSourceSmartWatch](https://github.com/Voxel07/OpenSourceSmartWatch) - DIY smartwatch project with custom PCB design
+* [SensorBand](https://github.com/Voxel07/SensorBand) - Wearable device for health monitoring
+* [KeyPad](https://github.com/Voxel07/KeyPad) - Custom mechanical keypad project
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+### Hardware Projects
+* [KiCad_Lib](https://github.com/Voxel07/KiCad_Lib) - Custom KiCad component library
+* [MK_UV_Belichter](https://github.com/Voxel07/MK_UV_Belichter) - UV exposure unit for PCB manufacturing
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+### Web Development
+* [CM_HUGO](https://github.com/Voxel07/CM_HUGO) - Personal portfolio website built with Hugo
+* [CM_Bierdeckel](https://github.com/Voxel07/CM_Bierdeckel) - Web application for tracking beer consumption
+* [ASVZ_Crawler](https://github.com/Voxel07/ASVZ_Crawler) - Web crawler for ASVZ course information
+
+
+
+
+## Connect With Me
+- GitHub: [@Voxel07](https://github.com/Voxel07)
+- [Contact Me](/contact)
